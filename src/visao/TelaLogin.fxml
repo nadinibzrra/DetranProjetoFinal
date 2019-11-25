@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginControler">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <JFXTextField layoutX="233.0" layoutY="100.0" promptText="Login" />
+            <JFXPasswordField layoutX="233.0" layoutY="175.0" promptText="Senha" />
+            <JFXButton layoutX="207.0" layoutY="268.0" ripplerFill="#321bb5" text="Entrar" />
+            <JFXButton layoutX="342.0" layoutY="268.0" text="Cadastrar" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
