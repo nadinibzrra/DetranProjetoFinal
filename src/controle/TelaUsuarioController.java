@@ -86,12 +86,7 @@ public class TelaUsuarioController implements Initializable {
          
         if(!campoSenha.getText().equals("") && !campoNome.getText().equals("") && !campoCPF.getText().equals("") && !campoLogin.getText().equals("")){
             Date dn = Date.valueOf(this.campoDN.getValue());
-            u = new Usuario(
-                    campoNome.getText(),
-                    campoCPF.getText(),
-                    dn, 
-                    campoLogin.getText(), 
-                    campoSenha.getText());
+            u = new Usuario(campoNome.getText(),campoCPF.getText(),dn, campoLogin.getText(),campoSenha.getText());
             System.out.println("criei objeto");
             uDAO.insertUsuario(u);
             limparUsuario();
