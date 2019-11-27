@@ -12,7 +12,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.sql.Date;
 import java.sql.SQLException;
-import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
@@ -78,6 +77,7 @@ public class TelaUsuarioController implements Initializable {
     @FXML private void limparUsuario(){
         campoNome.clear();
         campoCPF.clear();
+        campoDN.setValue(null);
         campoLogin.clear();
         campoSenha.clear();
     }

@@ -49,8 +49,6 @@ public class Main extends Application {
     public static void main(String[] args){
         launch(args);
       
-       
-       
        // teste do banco
        /*
         Date data = new Date();

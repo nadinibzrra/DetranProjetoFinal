@@ -3,13 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Clara/Documents/NetBeansProjects/Detran/src/persistencia/UsuarioDAO.java</file>
-            <file>file:/C:/Users/Clara/Documents/NetBeansProjects/Detran/src/persistencia/Conexao.java</file>
+            <file>file:/C:/Users/Clara/Documents/NetBeansProjects/Detran/src/controle/TelaLoginController.java</file>
+            <file>file:/C:/Users/Clara/Documents/NetBeansProjects/Detran/src/controle/TelaProvaController.java</file>
             <file>file:/C:/Users/Clara/Documents/NetBeansProjects/Detran/src/principal/Main.java</file>
-            <file>file:/C:/Users/Clara/Documents/NetBeansProjects/Detran/src/modelo/Prova.java</file>
-            <file>file:/C:/Users/Clara/Documents/NetBeansProjects/Detran/src/modelo/Usuario.java</file>
-            <file>file:/C:/Users/Clara/Documents/NetBeansProjects/Detran/src/visao/FXML.fxml</file>
-            <file>file:/C:/Users/Clara/Documents/NetBeansProjects/Detran/src/persistencia/ProvaDAO.java</file>
+            <file>file:/C:/Users/Clara/Documents/NetBeansProjects/Detran/src/controle/TelaUsuarioController.java</file>
         </group>
     </open-files>
 </project-private>

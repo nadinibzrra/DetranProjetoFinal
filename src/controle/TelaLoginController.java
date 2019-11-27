@@ -84,9 +84,11 @@ public class TelaLoginController implements Initializable {
     private void entrar() {    
         for(int i = 0 ; i <  listaUsuario.size() ; i++){
             if(listaUsuario.get(i).getLogin().contains(campoLogin.getText().toUpperCase()) &&
-                    listaUsuario.get(i).getSenha().contains(campoSenha.getText().toUpperCase())){
-                usuario();
-                break;
+                    listaUsuario.get(i).getSenha().contains(campoSenha.getText().toUpperCase()) &&
+                    !campoLogin.getText().isEmpty() && !campoSenha.getText().isEmpty()){
+                   
+                    prova();
+                    break;
             }
         }      
     }
